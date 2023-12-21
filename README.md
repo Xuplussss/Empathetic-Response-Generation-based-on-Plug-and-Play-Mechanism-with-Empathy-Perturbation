@@ -1,6 +1,6 @@
 # Empathetic Response Generation based on Plug-and-Play Mechanism with Empathy Perturbation
 
-!["our proposed system frameworks"](https://github.com/Xuplussss/Empathetic-Response-Generation-based-on-Plug-and-Play-Mechanism-with-Empathy-Perturbation/blob/main/SystemFrameworks.png?raw=true)
+!["our proposed system frameworks"](https://github.com/Xuplussss/Empathetic-Response-Generation-based-on-Plug-and-Play-Mechanism-with-Empathy-Perturbation/blob/main/SystemFrameworks.PNG?raw=true)
 
 ## Requirements
 - package_vision.txt
