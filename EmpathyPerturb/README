@@ -1,0 +1,18 @@
+基於即插即用結構與同理心擾動應用之同理對話回應
+
+資料夾:
+    bleu: 生成文字的bleu score計算結果
+    data: 語料(由於PPLM應用於生成，因此目前裡面只有test set)
+    emotional_valence: 生成文字的emotional valence計算結果
+    information_relevance: 生成文字的information relevance計算結果
+    models: 存放training model(包含EmoVal、GenModel、InfRel)
+    output: 模型生成結果存放區
+    vocab:Bert字典存放區
+  
+程式:
+    1. ./run_plugnplay_empathy_perturb.sh 使用即插即用結構與同理心擾動應用進行同理對話回應，並對生成結果計算Valence、Relevance與Bleu score
+
+注意事項:
+    1. 在生成部分，baseline以及perturb的程式有設置參數out_dir與for_test_run做簡單測試快速運行，若要完整生成可將這兩個參數在輸入指令中刪除，即可進行完整生成。
+    2. 須注意生成的輸出資料夾與評測檔案的輸入位置是否有對應到。
+    3. 目前loss設置有寫成定值，有需要的話可至ED_pplm_sen_all.py中full_text_generation_sentence_level的function修改註解相關部分的PPLM_LOSS設置。

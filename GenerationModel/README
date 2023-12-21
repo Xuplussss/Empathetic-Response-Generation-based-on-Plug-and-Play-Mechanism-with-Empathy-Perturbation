@@ -1,0 +1,13 @@
+系統回應生成模型微調
+
+資料夾:
+    data: 語料(要執行prepare4db.sh，更改less後的輸入檔案名稱與最後的輸出檔案名稱)
+    models: 存放training model與pretrained model
+    gpt2_training: model程式庫	
+    lsp_model: model程式庫
+    pycocoevalcap: evaluation metrics程式庫
+
+  
+程式:
+    1. ./run_generation_model.sh 訓練模型(使用EmpatheticDialogues對DialoGPT進行微調)
+    訓練完成的模型會在路徑: models/output_model中

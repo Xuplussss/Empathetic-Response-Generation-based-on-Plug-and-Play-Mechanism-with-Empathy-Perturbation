@@ -1,0 +1,1 @@
+fold0	./output/DialoGPT.txt	6.963787787308968

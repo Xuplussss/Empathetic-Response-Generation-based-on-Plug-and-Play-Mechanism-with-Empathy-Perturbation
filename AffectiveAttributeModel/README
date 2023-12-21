@@ -1,0 +1,9 @@
+情緒偵測Bert模型微調
+
+資料夾:
+    data:   語料
+    bert_epoch20_sst5:  存放經過SST-5微調後的模型
+    bert_epoch20_ftsitua:   存放經過EmpatheticDialogues的emotion label與situation sentence微調後的模型
+  
+程式:
+    1. ./run_valence_model_ftSST.sh 訓練模型(使用SST-5與EmpatheticDialogues對BERT進行情緒偵測微調)
